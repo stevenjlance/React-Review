@@ -8,7 +8,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cart: []
+      cart: [],
+      total: 0
     };
   }
 
@@ -50,10 +51,7 @@ class App extends Component {
         <Hero />
         <ShoppingCart />
         <div className="main">
-          <ProductList
-            inventory={this.inventory}
-            add={this.addToShoppingCart}
-          />
+          <ProductList inventory={this.inventory} />
         </div>
       </div>
     );
