@@ -9,19 +9,19 @@
 .ProductList .Product {
   /* border: 1px solid #ccc; */
   margin: 20px;
-  flex:1;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 250px;
-  background-color: #eee;
+  background-color: #ffc0cb;
 }
 
 .ProductList .Product h2 {
   margin: 0;
-  padding:10px;
-  background-color: #85B24F;
-  color:white;
+  padding: 10px;
+  background-color: #ff0000;
+  color: pink;
   text-align: center;
   font-size: 2rem;
   line-height: 60px;
@@ -45,10 +45,14 @@
   margin-right: 6px;
   font-size: 1.5rem;
   border: none;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(121, 36, 36, 0);
 }
 
 .ProductList .Product .buttons button:hover {
   color: white;
-  background-color: #85B24F;
+  background-color: #ff0000;
+}
+
+img {
+  width: 100%;
 }
