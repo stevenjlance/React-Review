@@ -3,9 +3,9 @@
 
 .Hero h1 {
   margin: 0;
-  padding:40px;
-  background-color: #85B24F;
-  color:white;
+  padding: 40px;
+  background-color: rgb(226, 15, 58);
+  color: pink;
   text-align: center;
   font-size: 4rem;
 }
